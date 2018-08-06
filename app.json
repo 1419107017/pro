@@ -1,0 +1,41 @@
+{
+  "pages":[
+   
+    "pages/index/index",   
+    "pages/contactUs/contactUs",
+    "pages/aboutUs/aboutUs",
+    "pages/message/message"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#b7b7b7",
+    "selectedColor": "#AB956D",
+    "borderStyle": "#f5f5f5",
+    "backgroundColor": "#f5f5f5",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_hl.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/aboutUs/aboutUs",
+        "iconPath": "images/about.png",
+        "selectedIconPath": "images/about_hl.png",
+        "text": "关于"
+      },
+      {
+        "pagePath": "pages/contactUs/contactUs",
+        "iconPath": "images/diqu.png",
+        "selectedIconPath": "images/diqu_hl.png",
+        "text": "联系"
+      }
+    ]
+  }
+}
