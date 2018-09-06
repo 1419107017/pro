@@ -39,7 +39,7 @@
   </navigator>
 </view>
 <view class='title'>
-<text>律师介绍</text>
+<text>律师简介</text>
 </view>
 <view class='introduce'>
   <text>{{introduce}}</text>
