@@ -1,0 +1,24 @@
+<!--pages/message/message.wxml-->
+<!--在线留言-->
+<view style='font-size:16px;color:#787a80;text-align:center;padding:10px 10px 0;'><span style="color:#ff9d02;">在线咨询</span></view>
+<view class="wp-mnew_message_form_content" style="">	
+<form class="mesform" method="post" action="index.php" style="position:relative;overflow:hidden;" novalidate="novalidate" bindsubmit="formSubmit">
+
+<view class="inpbox">
+  <input  maxlength="50" placeholder="请输入姓名" type='text' class='inptext' name="user_name"></input>
+</view>
+<view class="inpbox">
+  <input  maxlength="50" placeholder="请输入联系电话" type='text' class='inptext' name="phone"></input>
+</view>
+
+<view class="inpbox">
+  <textarea  maxlength="50" placeholder="请描述您的问题" type='text' class="txtarea" name="content"></textarea>
+</view>
+<view class="inpbox">
+  <button class="btnsubmit" formType="submit">提交咨询</button>
+</view>
+</form>
+<button class='forward' open-type="share">
+  <image src='../../images/forward.png'></image>
+</button>
+</view>
